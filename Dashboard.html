@@ -1,0 +1,187 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   NutriApp - Dashboard
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100 flex">
+  <!-- Sidebar -->
+  <div class="bg-white w-64 min-h-screen shadow-lg">
+   <div class="p-6">
+    <div class="flex items-center justify-center mb-6">
+     <img alt="NutriApp logo, a stylized apple with a leaf" class="w-24 h-24" height="100" src="https://storage.googleapis.com/a1aa/image/kXu5kFoVaggAgpioiSgauexYB5yXxXh4hDNKCBO3518.jpg" width="100"/>
+    </div>
+    <h2 class="text-2xl font-bold text-center mb-6">
+     NutriApp
+    </h2>
+    <nav>
+     <ul>
+      <li class="mb-4">
+       <a class="flex items-center text-gray-700 hover:text-blue-500" href="#">
+        <i class="fas fa-tachometer-alt mr-3">
+        </i>
+        Dashboard
+       </a>
+      </li>
+      <li class="mb-4">
+       <a class="flex items-center text-gray-700 hover:text-blue-500" href="Meal page.html">
+        <i class="fas fa-utensils mr-3">
+        </i>
+        Meals
+       </a>
+      </li>
+      <li class="mb-4">
+       <a class="flex items-center text-gray-700 hover:text-blue-500" href="Progress.html">
+        <i class="fas fa-chart-line mr-3">
+        </i>
+        Progress
+       </a>
+      </li>
+      <li class="mb-4">
+       <a class="flex items-center text-gray-700 hover:text-blue-500" href="NutriApp profile.html">
+        <i class="fas fa-user mr-3">
+        </i>
+        Profile
+       </a>
+      </li>
+      <li class="mb-4">
+       <a class="flex items-center text-gray-700 hover:text-blue-500" href="NutriApp settings.html">
+        <i class="fas fa-cog mr-3">
+        </i>
+        Settings
+       </a>
+      </li>
+      <li>
+       <a class="flex items-center text-gray-700 hover:text-blue-500" href="NutriApp.html">
+        <i class="fas fa-sign-out-alt mr-3">
+        </i>
+        Logout
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </div>
+  <!-- Main Content -->
+  <div class="flex-1 p-6">
+   <h1 class="text-3xl font-bold mb-6">
+    Dashboard
+   </h1>
+   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+    <!-- Card 1 -->
+    <div class="bg-white p-6 rounded-lg shadow-lg">
+     <div class="flex items-center justify-between mb-4">
+      <h2 class="text-xl font-bold">
+       Daily Calorie Intake
+      </h2>
+      <i class="fas fa-fire text-red-500 text-2xl">
+      </i>
+     </div>
+     <p class="text-2xl font-bold">
+      1,800 kcal
+     </p>
+    </div>
+    <!-- Card 2 -->
+    <div class="bg-white p-6 rounded-lg shadow-lg">
+     <div class="flex items-center justify-between mb-4">
+      <h2 class="text-xl font-bold">
+       Water Intake
+      </h2>
+      <i class="fas fa-tint text-blue-500 text-2xl">
+      </i>
+     </div>
+     <p class="text-2xl font-bold">
+       2.5 L
+     </p>
+    </div>
+    <!-- Card 3 -->
+    <div class="bg-white p-6 rounded-lg shadow-lg">
+     <div class="flex items-center justify-between mb-4">
+      <h2 class="text-xl font-bold">
+       Carbs
+      </h2>
+      <i class="fas fa-walking text-green-500 text-2xl">
+      </i>
+     </div>
+     <p class="text-2xl font-bold">
+      225 grams
+     </p>
+    </div>
+   </div>
+   <!-- Recent Meals -->
+   <div class="bg-white p-6 rounded-lg shadow-lg mb-6">
+    <h2 class="text-2xl font-bold mb-4">
+     Recent Meals
+    </h2>
+    <div class="space-y-4">
+     <div class="flex items-center justify-between">
+      <div class="flex items-center">
+       <img alt="A bowl of oatmeal with fruits" class="w-16 h-16 rounded-full mr-4" height="64" src="https://storage.googleapis.com/a1aa/image/njW9eFvdSaX1deRykoVSM0Rdn94ZeS525IGogKungws.jpg" width="64"/>
+       <div>
+        <h3 class="text-lg font-bold">
+         Breakfast
+        </h3>
+        <p class="text-gray-600">
+         Oatmeal with fruits
+        </p>
+       </div>
+      </div>
+      <p class="text-lg font-bold">
+       350 kcal
+      </p>
+     </div>
+     <div class="flex items-center justify-between">
+      <div class="flex items-center">
+       <img alt="A grilled chicken salad" class="w-16 h-16 rounded-full mr-4" height="64" src="https://storage.googleapis.com/a1aa/image/C9sk6QQKvJt0ngEZZMztnsF6mA6-G7k8uCA_EoKURtk.jpg" width="64"/>
+       <div>
+        <h3 class="text-lg font-bold">
+         Lunch
+        </h3>
+        <p class="text-gray-600">
+         Grilled chicken salad
+        </p>
+       </div>
+      </div>
+      <p class="text-lg font-bold">
+       450 kcal
+      </p>
+     </div>
+     <div class="flex items-center justify-between">
+      <div class="flex items-center">
+       <img alt="A plate of spaghetti with tomato sauce" class="w-16 h-16 rounded-full mr-4" height="64" src="https://storage.googleapis.com/a1aa/image/3WFibdsMtKavbuK3lS1rmCRN-LbELhAUk6OWE8pdZPs.jpg" width="64"/>
+       <div>
+        <h3 class="text-lg font-bold">
+         Dinner
+        </h3>
+        <p class="text-gray-600">
+         Spaghetti with tomato sauce
+        </p>
+       </div>
+      </div>
+      <p class="text-lg font-bold">
+       600 kcal
+      </p>
+     </div>
+    </div>
+   </div>
+   <!-- Progress Chart -->
+   <div class="bg-white p-6 rounded-lg shadow-lg">
+    <h2 class="text-2xl font-bold mb-4">
+     Progress Chart
+    </h2>
+    <img alt="Placeholder for a progress chart showing weight loss over time" class="w-full h-64" height="256" src="https://storage.googleapis.com/a1aa/image/RR-t_QQbdgOpb7RE0kcU0R_La0UKMHE6olju6geFdAE.jpg" width="600"/>
+   </div>
+  </div>
+ </body>
+</html>

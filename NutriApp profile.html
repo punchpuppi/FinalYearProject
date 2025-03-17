@@ -1,0 +1,162 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   NutriApp - Profile
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <header class="bg-blue-500 text-white p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-2xl font-bold">
+     NutriApp
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:underline" href="Dashboard.html">
+        Dashboard
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="Progress.html">
+        Progress
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="NutriApp Settings.html">
+        Settings
+       </a>
+      </li>
+      <li>
+       <a class="hover:underline" href="About us.html">
+        About us
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="container mx-auto p-4">
+   <section class="my-8">
+    <h2 class="text-3xl font-bold mb-4">
+     Your Profile
+    </h2>
+    <div class="bg-white p-6 rounded-lg shadow-lg">
+     <div class="flex items-center mb-6">
+      <img alt="User profile picture" class="w-24 h-24 rounded-full object-cover" height="96" src="https://storage.googleapis.com/a1aa/image/pa8WPCeGRX3qpHJsbstUg1mxP-ub-zjhjt2r9ZvEnzE.jpg" width="96"/>
+      <div class="ml-4">
+       <h3 class="text-2xl font-bold">
+        John Doe
+       </h3>
+       <p class="text-gray-600">
+        johndoe@example.com
+       </p>
+      </div>
+     </div>
+     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+       <label class="block text-gray-700 font-bold mb-2" for="first-name">
+        First Name
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded-lg" id="first-name" type="text" value="John"/>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-bold mb-2" for="last-name">
+        Last Name
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded-lg" id="last-name" type="text" value="Doe"/>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-bold mb-2" for="email">
+        Email
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded-lg" id="email" type="email" value="johndoe@example.com"/>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-bold mb-2" for="phone">
+        Phone
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded-lg" id="phone" type="tel" value="123-456-7890"/>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-bold mb-2" for="age">
+        Age
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded-lg" id="age" type="number" value="30"/>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-bold mb-2" for="gender">
+        Gender
+       </label>
+       <select class="w-full p-2 border border-gray-300 rounded-lg" id="gender">
+        <option>
+         Male
+        </option>
+        <option>
+         Female
+        </option>
+        <option>
+         Other
+        </option>
+       </select>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-bold mb-2" for="height">
+        Height (cm)
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded-lg" id="height" type="number" value="180"/>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-bold mb-2" for="weight">
+        Weight (kg)
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded-lg" id="weight" type="number" value="75"/>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-bold mb-2" for="gains">
+        Gains (kg)
+       </label>
+       <input class="w-full p-2 border border-gray-300 rounded-lg" id="gains" type="number" value="5"/>
+      </div>
+      <div>
+       <label class="block text-gray-700 font-bold mb-2" for="course">
+        Course
+       </label>
+       <select class="w-full p-2 border border-gray-300 rounded-lg" id="course">
+        <option>
+         Bulking
+        </option>
+        <option>
+         Losing Weight
+        </option>
+       </select>
+      </div>
+     </div>
+     <div class="mt-6 text-right">
+      <button class="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600">
+       Save Changes
+      </button>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-blue-500 text-white p-4 mt-8">
+   <div class="container mx-auto text-center">
+    <p>
+     © 2025 NutriApp. All rights reserved.
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>

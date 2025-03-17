@@ -1,0 +1,148 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>NutriApp Meals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body class="font-roboto bg-gray-100">
+    <header class="bg-green-600 text-white p-4 fixed w-full z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">NutriApp</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a class="hover:underline" href="Dashboard.html">Dashboard</a></li>
+                    <li><a class="hover:underline" href="Meal page.html">Meals</a></li>
+                    <li><a class="hover:underline" href="NutriApp Settings.html">Settings</a></li>
+                    <li><a class="hover:underline" href="About us.html">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="flex pt-16">
+        <aside class="w-64 bg-gray-800 text-white h-screen p-4 fixed">
+            <ul class="space-y-4">
+                <li><a class="flex items-center space-x-2 hover:bg-gray-700 p-2 rounded" href="Dashboard.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                <li><a class="flex items-center space-x-2 hover:bg-gray-700 p-2 rounded" href="Progress.html"><i class="fas fa-chart-line"></i><span>Progress</span></a></li>
+                <li><a class="flex items-center space-x-2 hover:bg-gray-700 p-2 rounded" href="NutriApp profile.html"><i class="fas fa-user"></i><span>Profile</span></a></li>
+                <li><a class="flex items-center space-x-2 hover:bg-gray-700 p-2 rounded" href="NutriApp Settings.html"><i class="fas fa-cog"></i><span>Settings</span></a></li>
+            </ul>
+        </aside>
+        <main class="container mx-auto p-4 ml-64">
+            <section class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-bold mb-4">Today's Meals</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="bg-gray-200 p-4 rounded-lg">
+                        <img alt="A healthy breakfast with eggs, toast, and avocado" class="w-full h-32 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/fjyu9zatWt_RzqWxr2Gh_Qb6mOFXbLsnNxGOaKUGFSk.jpg" width="300"/>
+                        <h3 class="text-xl font-semibold mb-2">Healthy Breakfast</h3>
+                        <p class="text-gray-600">Calories: 300</p>
+                        <p class="text-gray-600">Protein: 20g</p>
+                        <p class="text-gray-600">Carbs: 30g</p>
+                        <p class="text-gray-600">Fat: 10g</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 rounded-lg">
+                        <img alt="A nutritious lunch with grilled chicken, quinoa, and vegetables" class="w-full h-32 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/ss3AFcQgRZ3XmMuQlBHRV-Jv9KxTtcQP14tp_6ciKWc.jpg" width="300"/>
+                        <h3 class="text-xl font-semibold mb-2">Nutritious Lunch</h3>
+                        <p class="text-gray-600">Calories: 500</p>
+                        <p class="text-gray-600">Protein: 35g</p>
+                        <p class="text-gray-600">Carbs: 50g</p>
+                        <p class="text-gray-600">Fat: 15g</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 rounded-lg">
+                        <img alt="A balanced dinner with salmon, sweet potatoes, and green beans" class="w-full h-32 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/_Y3gfd9QPFqpS3d14c36Cm9tz-OhkR8J5PBrRckZmqg.jpg" width="300"/>
+                        <h3 class="text-xl font-semibold mb-2">Balanced Dinner</h3>
+                        <p class="text-gray-600">Calories: 600</p>
+                        <p class="text-gray-600">Protein: 40g</p>
+                        <p class="text-gray-600">Carbs: 60g</p>
+                        <p class="text-gray-600">Fat: 20g</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 rounded-lg">
+                        <img alt="A healthy snack with mixed nuts and fruits" class="w-full h-32 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/oae_xKnN1vhIot7Y7h8Z2gDoaHv91fyd9kpGzTsyZJ4.jpg" width="300"/>
+                        <h3 class="text-xl font-semibold mb-2">Healthy Snack</h3>
+                        <p class="text-gray-600">Calories: 200</p>
+                        <p class="text-gray-600">Protein: 5g</p>
+                        <p class="text-gray-600">Carbs: 20g</p>
+                        <p class="text-gray-600">Fat: 10g</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 rounded-lg">
+                        <img alt="A refreshing smoothie with berries and yogurt" class="w-full h-32 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/67Dz7XxIvPNG7wu0HE3bAi1cpNquThKi2a6fode3UrE.jpg" width="300"/>
+                        <h3 class="text-xl font-semibold mb-2">Refreshing Smoothie</h3>
+                        <p class="text-gray-600">Calories: 150</p>
+                        <p class="text-gray-600">Protein: 8g</p>
+                        <p class="text-gray-600">Carbs: 25g</p>
+                        <p class="text-gray-600">Fat: 2g</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 rounded-lg">
+                        <img alt="A light dessert with yogurt and fresh fruits" class="w-full h-32 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/3lLRHxU57FeeRq4-eb_LYcafdP6-kjIa6aUDbQ21vkQ.jpg" width="300"/>
+                        <h3 class="text-xl font-semibold mb-2">Light Dessert</h3>
+                        <p class="text-gray-600">Calories: 100</p>
+                        <p class="text-gray-600">Protein: 4g</p>
+                        <p class="text-gray-600">Carbs: 15g</p>
+                        <p class="text-gray-600">Fat: 3g</p>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-white p-6 rounded-lg shadow-md mt-6">
+                <h2 class="text-2xl font-bold mb-4">Custom Meals and Recipes</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="bg-gray-200 p-4 rounded-lg">
+                        <img alt="A custom meal with grilled chicken, brown rice, and steamed broccoli" class="w-full h-32 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/1WitbnokFRKKKiImWQN2RmPosCaFh-Fva3xxfAoHyVs.jpg" width="300"/>
+                        <h3 class="text-xl font-semibold mb-2">Grilled Chicken Meal</h3>
+                        <p class="text-gray-600">Calories: 450</p>
+                        <p class="text-gray-600">Protein: 35g</p>
+                        <p class="text-gray-600">Carbs: 40g</p>
+                        <p class="text-gray-600">Fat: 15g</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 rounded-lg">
+                        <img alt="A custom meal with tofu stir-fry, mixed vegetables, and quinoa" class="w-full h-32 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/1WitbnokFRKKKiImWQN2RmPosCaFh-Fva3xxfAoHyVs.jpg" width="300"/>
+                        <h3 class="text-xl font-semibold mb-2">Tofu Stir-Fry</h3>
+                        <p class="text-gray-600">Calories: 400</p>
+                        <p class="text-gray-600">Protein: 20g</p>
+                        <p class="text-gray-600">Carbs: 50g</p>
+                        <p class="text-gray-600">Fat: 10g</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 rounded-lg">
+                        <img alt="A custom meal with baked salmon, roasted sweet potatoes, and asparagus" class="w-full h-32 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/1WitbnokFRKKKiImWQN2RmPosCaFh-Fva3xxfAoHyVs.jpg" width="300"/>
+                        <h3 class="text-xl font-semibold mb-2">Baked Salmon Meal</h3>
+                        <p class="text-gray-600">Calories: 500</p>
+                        <p class="text-gray-600">Protein: 40g</p>
+                        <p class="text-gray-600">Carbs: 45g</p>
+                        <p class="text-gray-600">Fat: 20g</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 rounded-lg">
+                        <img alt="A custom meal with turkey burger, whole grain bun, and side salad" class="w-full h-32 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/1WitbnokFRKKKiImWQN2RmPosCaFh-Fva3xxfAoHyVs.jpg" width="300"/>
+                        <h3 class="text-xl font-semibold mb-2">Turkey Burger Meal</h3>
+                        <p class="text-gray-600">Calories: 550</p>
+                        <p class="text-gray-600">Protein: 30g</p>
+                        <p class="text-gray-600">Carbs: 60g</p>
+                        <p class="text-gray-600">Fat: 20g</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 rounded-lg">
+                        <img alt="A custom meal with shrimp pasta, whole grain spaghetti, and marinara sauce" class="w-full h-32 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/1WitbnokFRKKKiImWQN2RmPosCaFh-Fva3xxfAoHyVs.jpg" width="300"/>
+                        <h3 class="text-xl font-semibold mb-2">Shrimp Pasta</h3>
+                        <p class="text-gray-600">Calories: 600</p>
+                        <p class="text-gray-600">Protein: 35g</p>
+                        <p class="text-gray-600">Carbs: 70g</p>
+                        <p class="text-gray-600">Fat: 15g</p>
+                    </div>
+                    <div class="bg-gray-200 p-4 rounded-lg">
+                        <img alt="A custom meal with veggie wrap, whole grain tortilla, and hummus" class="w-full h-32 object-cover rounded-lg mb-4" height="200" src="https://storage.googleapis.com/a1aa/image/1WitbnokFRKKKiImWQN2RmPosCaFh-Fva3xxfAoHyVs.jpg" width="300"/>
+                        <h3 class="text-xl font-semibold mb-2">Veggie Wrap</h3>
+                        <p class="text-gray-600">Calories: 350</p>
+                        <p class="text-gray-600">Protein: 15g</p>
+                        <p class="text-gray-600">Carbs: 45g</p>
+                        <p class="text-gray-600">Fat: 10g</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="bg-green-600 text-white p-4 mt-6">
+        <div class="container mx-auto text-center">
+            <p>© 2025 NutriApp. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
